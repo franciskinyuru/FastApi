@@ -79,14 +79,13 @@ def get_student(*, student_id: int, name: Optional[str] = None, test: int):
 
 
 #Post method with Request Body and The post Method we use this to create a new student 
-`@app.post("/create-student/{student_id}")
+` @app.post("/create-student/{student_id}")
 def create_student(student_id: int, student: Student):
-#here we pass the class we create up there so that we can pass the post data
     if student_id in students:
         return {"Error": "Student exists"}
 
     students[student_id] = student
-    return students[student_id]`
+    return students[student_id] `
 
 
 # Put method to update student details
