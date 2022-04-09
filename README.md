@@ -110,7 +110,9 @@ def delete_student(student_id : int):
     del students[student_id]
     return {"message": "Student Deleted Successfully"}
 
-See below my apis clear above.
+See below my apis .
+![img_1.png](img_1.png)
+
 ![img.png](img.png)
 
 # Happy coding :)
