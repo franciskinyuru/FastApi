@@ -1,3 +1,5 @@
 /venv
-/__py_cache
+__pycache__
 venv
+
+https://github.com/franciskinyuru/FastApi.git

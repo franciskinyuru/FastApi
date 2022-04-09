@@ -1,3 +1,9 @@
+#Have python 3.6 or more ready
+#install required packages with below commands
+
+# Pip install fastapi, uvicorn
+
+# import all required packages
 from fastapi import FastAPI, Path
 from typing import Optional
 from pydantic import BaseModel
